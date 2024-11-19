@@ -1,0 +1,78 @@
+html {
+    user-select: none;
+}
+@font-face {
+    font-family: 'Eurostar Regular Extended';
+    src: url('https://www.fontsaddict.com/fontface/eurostar-regular-extended.ttf');
+}     
+body {
+    background-color: #6F6F6F;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color:#80FFFF;
+}
+.navbar #logo {
+    justify-self: flex-start;
+    margin: 20px;
+}
+.navbar #links {
+    float: right;
+    margin-left: auto;
+    margin: 20px;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.introduction p {
+    color: #80FFFF;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: center;
+}
+.updates ul {
+    list-style: none;
+    padding: 0;
+    color: #F5F898;
+}
+.updates ul li {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.product {
+    text-align: center;
+    margin: 20px;
+}
+.product img {
+    width: 300px;
+    height: 200px;
+    border: 2px solid #FFFFFF;
+}
+.product h3 {
+    color: #FFFFFF;
+    margin: 10px 0;
+}
+.product p {
+    color: #80FFFF;
+    font-size: 0.9rem;
+}
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #F5F898;
+}
+footer a {
+    color: #80FFFF;
+    text-decoration: none;
+}
