@@ -1,0 +1,20 @@
+@import url(main.css);
+html {
+    background-image: url("/IMG/circuit.png");
+}
+.OEM-BOARDS {
+    text-align: center;
+}
+/* Container for side by side */
+.side-by-side {
+    display: flex;
+    flex-direction: row;
+}
+.side-by-side .pane {
+    margin: 50px;
+    text-align: center;
+    width: 50%;
+}
+.side-by-side .pane p {
+    text-align: left;
+}

@@ -1,0 +1,29 @@
+@import url(main.css);
+html {
+    background-image: url("/IMG/blurred2.png");
+}
+
+p#warning {
+    text-align: center;
+    font-weight: bold;
+}
+p#warning span#red {
+    color: red;
+}
+p#warning span#yellow {
+    color: yellow;
+}
+
+section#gallery img {
+    width: 600px;
+    user-select: none;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+section#gallery img:hover {
+    -webkit-filter:brightness(120%);
+    filter: brightness(120%) ease-in-out;
+    transform: scale(1.01);
+}
+
+/* TODO: Style up the sections */
