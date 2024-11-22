@@ -1,20 +1,25 @@
 @import url(main.css);
 html {
-    background-image: url("/IMG/circuit.png");
+    background-image: url(/IMG/boards.png);
 }
-.OEM-BOARDS {
+section#boards {
     text-align: center;
 }
-/* Container for side by side */
-.side-by-side {
-    display: flex;
-    flex-direction: row;
+section#boards table, td {
+    border: 1px solid black;
+    border-radius: 15px;
+    border-spacing: 30px;
 }
-.side-by-side .pane {
-    margin: 50px;
-    text-align: center;
-    width: 50%;
+section#boards table {
+    border: none;
 }
-.side-by-side .pane p {
-    text-align: left;
+section#boards td {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+section#boards .pane {
+    margin: 20px;
+}
+section#boards .pane img {
+    user-select: none;
+    border-radius: 15px;
 }

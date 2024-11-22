@@ -1,0 +1,29 @@
+@import url(main.css);
+html {
+    background-image: url(/IMG/about.png);
+    background-color: rgb(205, 205, 205);
+    color: black;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: white;
+}
+.nav-links a {
+    color: black;
+}
+.nav-links a:hover {
+    background-color: black;
+    color: white; /* White text on hover */
+}
+
+/* Sections Styles */
+section {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+/* Footer Styles */
+footer {
+    background-color: white;
+    color: black;
+}

@@ -1,0 +1,32 @@
+@import url(main.css);
+html {
+    background-image: url(/IMG/pickups.png);
+}
+
+/* Sections Styles */
+section#pickups {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+section#pickups div.pane {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 30%;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    transition: 0.5s;
+}
+section#pickups div.pane:hover {
+    transform: scale(1.05);
+}
+section#pickups div.pane a {
+    text-decoration: none;
+    color: white;
+}
+section#pickups div.pane img {
+    width: 90%;
+    border-radius: 10px;
+}
