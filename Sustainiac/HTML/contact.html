@@ -30,16 +30,19 @@
         <!-- Content Container-->
         <div class="container">
             <!-- TODO: Section... -->
-            <section>
+             <section>
+                <h2>Contact Form</h2>
                 <form>
-                    <label>First Name:</label>
-                    <input type="text" name="firstname" required>
-                    <label>Last Name:</label>
-                    <input type="text" name="lastname" required>
-                    <label>Phone Number: (Phone Number must be ###-###-####)</label>
+                    <label for="fname">First Name:</label>
+                    <input type="text" name="firstname" required id="fname">
+                    <label for="lname">Last Name:</label>
+                    <input type="text" name="lastname" required id="lname">
+                    <label for="phone">Phone Number: (Phone Number must be ###-###-####)</label>
                     <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
-                    <label>Write us a message!</label>
-                    <textarea></textarea>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required>
+                    <label for="message">Write us a message!</label>
+                    <textarea name="message" id="message"></textarea>
                     <input type="submit">
                 </form>
              </section>
