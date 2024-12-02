@@ -30,7 +30,19 @@
         <!-- Content Container-->
         <div class="container">
             <!-- TODO: Section... -->
-             <section></section>
+             <section>
+                <form>
+                    <label>First Name:</label>
+                    <input type="text" name="firstname" required>
+                    <label>Last Name:</label>
+                    <input type="text" name="lastname" required>
+                    <label>Phone Number: (Phone Number must be ###-###-####)</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
+                    <label>Write us a message!</label>
+                    <textarea></textarea>
+                    <input type="submit">
+                </form>
+             </section>
         </div>
 
         <!-- Footer -->
