@@ -1,6 +1,6 @@
 @import url(main.css);
 html {
-    background-image: url(/IMG/about.png);
+    background-image: url(../IMG/about.png);
     background-color: rgb(205, 205, 205);
     color: black;
 }
@@ -24,6 +24,10 @@ section {
 
 /* Footer Styles */
 footer {
-    background-color: white;
     color: black;
+    text-emphasis: 100%;
+}
+footer a {
+    color: #002aff;
+    text-decoration: none;
 }

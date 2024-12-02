@@ -1,6 +1,6 @@
 @import url(main.css);
 html {
-    background-image: url(/IMG/boards.png);
+    background-image: url(../IMG/boards.png);
 }
 section#boards {
     text-align: center;

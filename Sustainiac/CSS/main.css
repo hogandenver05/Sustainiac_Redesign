@@ -18,6 +18,7 @@ html {
 /* Default Navbar Styles */
 .navbar {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     background-color: black;
@@ -28,9 +29,17 @@ html {
     width: 100%;
     z-index: 1000; /* bring to top layer */
 }
+.logo {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: visible;
+}
 .logo img {
-    height: 60px;
+    max-height: 60px;
     transition: 0.3s ease-out;
+}
+.nav-links {
+    text-wrap: nowrap;
 }
 @-webkit-keyframes spin {
     0%  {-webkit-transform: rotate(0deg);}

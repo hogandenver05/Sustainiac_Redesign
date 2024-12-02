@@ -1,6 +1,6 @@
 @import url(main.css);
 html {
-    background-image: url(/IMG/pickups.png);
+    background-image: url(../IMG/pickups.png);
 }
 
 /* Sections Styles */
