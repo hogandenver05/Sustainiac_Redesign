@@ -1,0 +1,9 @@
+@import url(main.css);
+div.container section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;
+    font-size: xx-large;
+}
