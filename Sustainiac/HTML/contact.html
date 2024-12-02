@@ -29,21 +29,39 @@
 
         <!-- Content Container-->
         <div class="container">
-            <!-- TODO: Section... -->
              <section>
-                <h2>Contact Form</h2>
+                <h2>Contact Us!</h2>
                 <form>
-                    <label for="fname">First Name:</label>
-                    <input type="text" name="firstname" required id="fname">
-                    <label for="lname">Last Name:</label>
-                    <input type="text" name="lastname" required id="lname">
-                    <label for="phone">Phone Number: (Phone Number must be ###-###-####)</label>
-                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
-                    <label for="email">Email:</label>
-                    <input type="email" name="email" id="email" required>
-                    <label for="message">Write us a message!</label>
-                    <textarea name="message" id="message"></textarea>
-                    <input type="submit">
+                    <table>
+                        <tr>
+                            <td style="width: 50%;">
+                                <label for="fname">First Name:</label>
+                                <input type="text" name="firstname" required id="fname">
+                            </td>
+                            <td>
+                                <label for="lname">Last Name:</label>
+                                <input type="text" name="lastname" required id="lname">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="email">Email:</label>
+                                <input type="email" name="email" id="email" required>
+                            </td>
+                            <td>
+                                <label for="phone">Phone Number: ###-###-#### (<i>optional</i>)</label>
+                                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <label for="message">Write us a message!</label>
+                                <textarea name="message" id="message"></textarea>
+                                <input type="submit">
+                            </td>
+                        </tr>
+                    </table>
+                    
                 </form>
              </section>
         </div>
