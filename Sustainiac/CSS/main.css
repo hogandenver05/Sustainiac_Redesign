@@ -29,6 +29,11 @@ html {
     top: 0; left: 0;
     width: 100%;
     z-index: 1000; /* bring to top layer */
+    scrollbar-width: none;
+}
+/* for webkit users like chrome */
+.navbar::-webkit-scrollbar {
+    display: none;
 }
 .logo {
     display: flex;
