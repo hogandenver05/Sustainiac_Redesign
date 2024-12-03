@@ -14,7 +14,7 @@ The reason we chose this as our final project was to create a more usable sustai
 Implement external style sheets
 	◦	Responsive
 	◦	Nicer scheme
-	◦	No frameworks 
+	◦	No frameworks
 	◦	Proper layout of page
 Make HTML more cohesive and intuitive
 	◦	divs
