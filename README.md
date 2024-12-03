@@ -10,4 +10,16 @@ Everyone in the group has played a vital role in contributing to the overall suc
 # Reasoning For Project: 
 The reason we chose this as our final project was to create a more usable sustainiac website and make it more user friendly and easier to view everything on the site and navigate throughtout the site. Making the color scheme better and more pleasing to the human eye. 
 
+# Elements Improved
+Implement external style sheets
+	◦	Responsive
+	◦	Nicer scheme
+	◦	No frameworks 
+	◦	Proper layout of page
+Make HTML more cohesive and intuitive
+	◦	divs
+	◦	forms and tables
+	◦	navigation
+	◦	Semantic HTML
+	◦	favicon
 
