@@ -13,10 +13,11 @@ section#pickups {
 section#pickups div.pane {
     background-color: rgba(0, 0, 0, 0.6);
     width: 30%;
+    min-width: 200px;
     border-radius: 15px;
     text-align: center;
     padding: 20px;
-    margin: 20px;
+    margin: 20px 10px;
     transition: 0.5s;
 }
 section#pickups div.pane:hover {
