@@ -1,25 +1,23 @@
 # Sustainiac_Redesign
 An overhaul of www.sustainiac.com 
 
-# Instructions:
-Navigate through the main folder, then through the HTML folder, and open the file named index.html
+### Contributors:
+- **Denver Hogan**
+- **Jagger Layman**
+- **Trey Shaw**
 
-# Contributions:
-Everyone in the group has played a vital role in contributing to the overall success of this final project. All three of the group memebers have all distrubited and done the work together. Editors: Denver Hogan, Jagger Layman, Trey Shaw.
+### The Why: 
+For our final project in INF 286, We were tasked to team up with two of our peers and redesign an existing website from the ground up. We chose Sustainiac's website because it appeared outdated and illogically structured, from site navigation to the actual code. We wanted to breathe new life into the website and offer a less confusing experience for the user, but we were left with virtually nothing to go off of. So, we did our research and built a top layer front-end site highlighting the company's purpose and displaying some of their products.
 
-# Reasoning For Project: 
-The reason we chose this as our final project was to create a more usable sustainiac website and make it more user friendly and easier to view everything on the site and navigate throughtout the site. Making the color scheme better and more pleasing to the human eye. 
+### Elements Improved:
+- Implement external style sheets
+	- Responsive
+	- In-house styles
+	- Proper layout of page
+- Make HTML more cohesive and intuitive
+	- Make use of Divs, Forms and Tables
+	- Improve site navigation
+	- Semantic HTML
 
-# Elements Improved
-Implement external style sheets
-	◦	Responsive
-	◦	Nicer scheme
-	◦	No frameworks
-	◦	Proper layout of page
-Make HTML more cohesive and intuitive
-	◦	divs
-	◦	forms and tables
-	◦	navigation
-	◦	Semantic HTML
-	◦	favicon
-
+### Instructions:
+Navigate through the HTML folder and open the file named index.html
